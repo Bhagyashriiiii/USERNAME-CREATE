@@ -1,0 +1,93 @@
+body {
+    background-image: url("https://i.ibb.co/fdGSqBk6/69601d057dd07bf3251936772eef1286.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    min-height: 100vh;
+    margin: 0;
+    text-align:center ;
+}
+h1{
+    color:white;
+    text-align:center;
+    font-size:30px;
+    text-shadow:0 0 10px pink; 
+}
+.card{
+    border: 1px solid rgba(255,255,255,0.25);
+    border-radius:20px;
+    padding:20px;
+    height:max-content;
+    margin:10px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px); 
+    box-shadow:
+        0 8px 32px rgba(0,0,0,0.2),
+        0 0 20px rgba(255,192,203,0.15);
+    
+}
+.card h2{
+    color:white;
+    text-align:center;
+    -webkit-text-stroke: 1px pink;
+    text-shadow:
+        0 0 10px pink,
+        0 0 20px pink;
+}
+ 
+ input{
+    width: min(80%, 400px);
+    display:block;
+    margin:auto;
+    padding:12px;
+    border:none;
+    outline:none;
+    border-radius:15px;
+    background:rgba(255,255,255,0.15);
+    color:white;
+    backdrop-filter:blur(10px);
+}
+button{
+    background-color:white;
+    color:#ff69b4;
+    margin-top:30px;
+    border:none ;
+    border-radius:15px;
+    padding:12px 24px;
+    box-shadow:
+        0 0 10px pink,
+        0 0 25px pink;
+        transition: 0.3s;
+}
+button:hover{
+    transform: scale(1.05);
+    
+}
+#result{
+    color:white;
+    text-align:center;
+    padding:20px;
+    line-height:1.8;
+}
+.item{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    margin:10px;
+    padding:12px;
+    background:white;
+    border-radius:15px;
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+}
+
+.item span{
+    color:#f58cd2;
+}
+
+.item button{
+    padding:8px 14px;
+    margin:0;
+    font-size:14px;
+}
